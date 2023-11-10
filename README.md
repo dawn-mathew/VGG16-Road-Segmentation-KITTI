@@ -49,3 +49,12 @@ from tensorflow.keras.applications import VGG16
 vgg16_model = VGG16()
 ```
 ## Results
+- After the training process comprising 200 epochs, with 7 steps per epoch, our neural network achieved a final training loss of 0.0521 and a mean Intersection over Union (IoU) of 0.4133, indicative of its strong performance in capturing intricate patterns. Equally, for the validation set, the network showcased exceptional results with a loss of 0.0479 and an impressive mean IoU of 0.4178.
+- Samples of the predicted images are shown bellow.
+![image](https://github.com/dawn-mathew/VGG16-Road-Segmentation-KITTI/assets/150279674/2f35f8ba-e47d-461b-a160-675ef31ac3af)
+![image](https://github.com/dawn-mathew/VGG16-Road-Segmentation-KITTI/assets/150279674/add03c8c-07b6-42e2-9d75-48a5d0880e73)
+![image](https://github.com/dawn-mathew/VGG16-Road-Segmentation-KITTI/assets/150279674/7ddfd73f-80a0-4268-b9d6-28d99e977286)
+
+
+
+
